@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      scroll-behavior: smooth;
+
+}
+html,body{
+    height: 105vh;
+    width: 100%;
+    background-image:url("pic2.png");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+header{
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+/*See how you can make navigation bar*/
+#logobox{
+    display: inline-block;
+    width: 190px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#navbar{
+    width:600px;
+    position: absolute;
+    right:20px;
+    display: inline-block;
+    font-size: large;
+
+}
+#navbar>a{
+     color: white;
+    margin:20px;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: all 0.5s;  /*Take a note here */
+}
+#navbar #home{
+    color: salmon;
+}
+#navbar>a:hover{
+      color: salmon;
+}
+
+#centre{
+    color:salmon;
+    font-size:55px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    /* position: relative;
+    top:90px;
+    left:50px; */
+     margin: 135px 50px;
+    width: 600px;
+    letter-spacing: 2px;
+}
+#centre span{
+    padding-left: 40px;
+}
+#centre h3{
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-size: 44px;
+        color: white;
+        padding-left: 40px;
+        letter-spacing: 2px;
+    
+}
+#centre p{
+    letter-spacing: 0;
+    padding-top:30px;
+    color:white;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.enrol{
+    letter-spacing: 0;
+    display:inline-block;
+     text-decoration: none;
+    border-radius: 10px;
+        border: none;
+    width:100px;  
+    height:45px; 
+    padding:11px 7px;
+        background-color: white;
+
+    position: relative;
+    top:10px;
+    color:rgb(48, 48, 48,0.9);
+    font-size: medium;
+    font-family:sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.enrol:hover{
+    color:rgb(250, 128, 114,0.8);
+    transition: 0.5s;
+}
+
+
+.ending{
+background-image: url(scroll.png);
+background-size: cover;
+width:100%;
+
+}
+#logcenter{
+    text-align: center;
+color: rgb(255, 255, 255,0.5);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 300;
+padding-top: 10px;
+font-size: 20px;
+}
+.brands{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+    background-color:rgba(6, 6, 6, 0.6);  
+    margin-bottom: -179px;
+    margin-top: -20px;
+}
+.brands img{
+    display: inline-block;
+       width:100px;
+       height:auto;
+filter: invert(1) sepia(0) saturate(5) hue-rotate(200deg);}
+#calvin{
+    margin: auto 0px;
+    width:150px;
+    height:50px;
+}
+#dior{
+    margin:auto 0px;
+    width:150px;
+    padding-bottom: 25px;
+}
+#prada{
+    height:50px;
+      margin: auto 0px;
+}
+.brands i{
+    color:white;
+    padding:50px 0px;
+    font-size: 32px;
+}
+.bottom-end{
+    background-color: transparent; 
+    
+}
+.bottom-1{
+    background-color:rgba(0, 0, 0, 0.9);  
+    margin-top:35px;
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+    margin-top: 174px;
+    padding:60px 90px;
+    color: white;
+    border-top:1px solid rgba(46, 45, 45, 0.9); 
+
+}
+
+.part1{
+    width:320px;
+}
+.part1 h3{
+    font-size: 27px;
+    font-weight: 500;
+        letter-spacing:1px;
+
+}
+.part1 p{
+   color: rgb(255, 255, 255,0.5);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+    padding-top: 10px;
+}
+.part2 h3{
+    color:rgba(255,255,255,0.8);
+font-size: 20px;
+font-weight: 100;
+letter-spacing:2px;
+
+}
+.part2 a{
+    text-decoration:none ;
+    color: rgb(255, 255, 255,0.5);
+
+}
+.bottom-nav{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    padding:9px;
+    padding-top: 15px;
+}
+.part3{
+   width:260px;
+}
+.part3 h3{
+   color:rgba(255,255,255,0.8);
+font-size: 20px;
+font-weight: 100;
+letter-spacing:2px;
+}
+.part3-m{
+    display:flex ;
+    gap:10px;
+    padding-top:15px;
+}
+.part3-m a{
+    display: inline-block;
+    text-decoration: none;
+    padding:8px 8px;
+    border:1px solid rgba(41, 39, 39, 0.9);
+    background-color: none;
+    border-radius: 2px;
+    text-align: center;
+
+}
+.part3-m i:hover{
+    color:rgb(250, 128, 114,0.8);
+    transition: 0.5s;
+}
+.part3-m i{
+   color: rgb(255, 255, 255,0.5);
+    font-size: 32px;
+    cursor:pointer;
+    font-weight:300;
+    background-color: none;
+
+}
+
+.part4 h3{
+   color:rgba(255,255,255,0.8);
+font-size: 20px;
+font-weight: 100;
+letter-spacing:2px;
+
+}
+.part4 p{
+   color: rgb(255, 255, 255,0.5);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+    padding-top: 10px;
+}
+
+.end2{
+    background-color:rgba(0, 0, 0, 0.9);  
+    padding:0px 90px;
+}
+.end2-1{
+display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-top:1px solid rgba(46, 45, 45, 0.9); 
+ color: rgb(255, 255, 255,0.4);
+ font-family: 'Times New Roman', Times, serif;
+}
